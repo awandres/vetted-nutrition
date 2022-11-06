@@ -33,14 +33,14 @@ export default function Layout({ children, home }) {
           property="og:image:secure_url"
           content="http://vettednutrition.org/images/vn-white-logo.png"
         />
-        <meta property="og:title" content="Vetted Trainers" />
+        <meta property="og:title" content="Vetted Nutrition" />
         <meta property="og:type" content="website" />
 
         <meta property="og:description" content="Vetted Trainers is a group of experienced personal trainers that create dedicated workout and training programs to help you achieve your fitness goals." />
         <meta property="og:url" content="https://vettednutrition.org" />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Vetted Trainers" />
+        <meta name="twitter:title" content="Vetted Nutrition" />
         <meta name="twitter:description" content="Personal Nutrition programs tailored to your fitness needs" />
         <meta name="twitter:image" content="http://vettednutrition.org/images/vn-white-logo.png" />
         <meta name="twitter:site" content="@TrainersVetted" />
