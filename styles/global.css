@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat!important;
   line-height: 1.6;
   font-size: 18px;
 }
@@ -24,4 +23,75 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+p { font-size:22px; color:#fff;}
+.bg-white p { color:#000; }
+
+a.btn-cta, input.hs-button { background-color:#30833C!important; color:#fff; }
+a.btn-cta:hover { background-color:#24642d!important; text-decoration: none; color:#fff;}
+
+a.btn-alt { background-color:#B6F3E8!important; color:#000;}
+a.btn-alt:hover { background-color:#a3dbd1!important; text-decoration: none;}
+
+header h2 a { text-decoration:none; }
+
+.testimonialColumn {border:1px solid black}
+
+.introSectionHome {
+  background-image: url('/images/fruits-veggies.jpg');
+  background-repeat: no-repeat;
+}
+section.footer {background-color: black!important;}
+
+.servicesHeaderBlock { background: url('/images/green-veg-3.jpg'); background-position: center; color:white;}
+
+.aboutVegBlock {
+  background-image: url('/images/green-veg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.green-header { color:#30833C; font-weight: 900; margin-top: 40px; margin-bottom: 20px;}
+
+.opacity-block { background-color:#ffffff6b;}
+
+.heroBannerVeg {
+  /* background-image: url('/images/fruits-veggies.jpg'); */
+  height:600px;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1200px) {
+  .introSectionHome {
+    background-position-x: -300px;
+  }
+}
+
+
+@media screen and (max-width:990px) {
+  .aboutVegBlock {
+    height: 40vh;
+   background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div.mobile-fix { padding-top:0px!important;}
+}
+
+@media screen and (max-width:767px) {
+  .footerContact h3 {
+    font-size:13px!important;
+  }
+  .img-fluid { max-width:100vw!important}
+  .introSectionHome {padding-bottom:  0px!important;}
+  .opacity-block { padding-bottom:30px;}
+  .mail h3 {
+    font-size: 1.3rem!important;
+    color:white;
+    font-weight:300;
+    margin-bottom:0px;
+}
+.aboutVegBlock { margin-top:100px!important;}
+
 }

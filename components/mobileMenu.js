@@ -35,7 +35,7 @@ class MobileMenu extends React.Component {
           alignItems: 'end',
           marginBottom:'30px',
           justifyContent: 'flex-end',
-          background: 'rgba(0,0,0, .4)',
+          background: 'rgb(240 240 240 / 40%)',
           width: '100%',
           color: 'white',
           fontFamily: 'Lobster',
@@ -94,7 +94,7 @@ class MobileMenu extends React.Component {
           zIndex: 100
         }
       }
-    const menu = ['Home', 'Services', 'Join Our Team', 'About the Owners']
+    const menu = ['Home', 'Services', 'Join Our Team', 'About']
     const menuItems = menu.map((val, index) => {
       return (
         <MenuItem
@@ -107,7 +107,7 @@ class MobileMenu extends React.Component {
 
         <MediaQuery maxDeviceWidth={768}>
 
-<Link href='/'><img style={styles.logo} src='/images/vetted-logo.png' alt="mobile icon logo for Vetted Trainers" /></Link>
+<Link href='/'><img style={styles.logo} src='/images/vn-white-logo.png' alt="mobile icon logo for Vetted Trainers" /></Link>
 
           <div style={styles.container}>
 
@@ -139,7 +139,7 @@ class MobileMenu extends React.Component {
 
                 <div style={styles.line} />
 
-                <Link href='/about-the-owners'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <Link href='/about-us'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 <h2 style={styles.headerItem}>About the Owners</h2>
 </div></Link>

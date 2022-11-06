@@ -5,12 +5,15 @@
   margin:10px;
 }
 
+
 .arrowDiv {
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
+a.btn-cta { background-color:green!important; }
 
 .sliderDiv {
   display: flex;
@@ -55,6 +58,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+.heroBannerVeg {
+  /* background-image: url('/images/fruits-veggies.jpg'); */
+  height:600px;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .heroBannerContent {
   width:1000px;
@@ -308,6 +320,7 @@
   justify-content: center;
   align-items: center;
   padding:80px;
+  background-color: #000!important;
 }
 
 .footerContact {
@@ -524,6 +537,8 @@ margin-left:000px;
 
 .mail h3 {
   line-height: normal;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 
 .services {

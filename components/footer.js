@@ -11,7 +11,7 @@ return (
 
   <a className={utilStyles.colorInherit}>
   <div className={formStyles.logo}>
-    <img src='/images/vetted-logo.png' alt="Black and white logo for Vetted Trainers fitness gym" />
+    <img src='/images/vn-black-logo.jpg' alt="Black and white logo for Vetted Nutrition fitness gym" />
   </div>
   </a>
 
@@ -34,11 +34,11 @@ return (
       <img src='/images/yt-red.png' alt="Red youtube icon" />
     </a>
 
-      <a href="https://www.facebook.com/Vettedtrainers/" target="_blank" className={utilStyles.colorInherit}>
+      <a href="https://www.facebook.com/vettednutrition" target="_blank" className={utilStyles.colorInherit}>
         <img src='/images/fb-icon.png' alt="Blue facebook icon"/>
       </a>
 
-    <a className={utilStyles.colorInherit} href ="https://www.instagram.com/vettedtrainers/" target="_blank">
+    <a className={utilStyles.colorInherit} href ="https://www.instagram.com/vettednutrition/" target="_blank">
       <img src='/images/ig-icon.png' alt="Purple instagram icon" />
     </a>
     </div>

@@ -294,8 +294,7 @@
 }
 
 .footerContact {
-  margin-left:40px;
-  margin-top:70px;
+  padding-top:70px;
 }
 
 .footerContact h3 {
@@ -568,7 +567,8 @@ margin-left:000px;
 
 
 .footerContact h3 {
-  margin-left:45px;
+  margin-left:0px;
+  font-size:25px;
 }
 
 .footer {
@@ -626,9 +626,7 @@ margin-left:000px;
     line-height: normal;
   }
 
-  .footerContact h3 {
-    font-size:13px;
-  }
+
 
   .footer {
     padding:30px;
