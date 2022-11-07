@@ -59,7 +59,7 @@ class Menu extends React.Component {
         animation: '1s appear forwards',
         paddingTop: '80px',
         animation: '1s appear forwards',
-        paddingTop: '80px',
+        paddingTop: '103px',
         animationDelay: 1
       },
       menuList: {
@@ -121,6 +121,13 @@ class Menu extends React.Component {
   >
                   <h2 style={styles.headerItem}>About</h2>
                 </div></Link>
+
+                <div style={styles.line} />
+
+                <a class="external-link" target="_blank" href="https://www.vettedtrainers.com/" passHref={true}><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+  >
+                  <h2 style={styles.headerItem}>Fitness</h2>
+                </div></a>
 
                 <div style={styles.line} />
 

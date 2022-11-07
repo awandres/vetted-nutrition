@@ -79,9 +79,15 @@ export default function Layout({ children, home }) {
             </h2>
 
             <h2 className={utilStyles.headingLg}>
-              <Link href="/general-training-intake">
+              <a class="external-link" href="https://www.vettedtrainers.com" target="_blank">
+                <a className={utilStyles.colorInherit}>Fitness</a>
+              </a>
+            </h2>
+
+            <h2 className={utilStyles.headingLg}>
+              <a class="external-link" href="https://calendly.com/vettednutrition/go-time-onboarding" target="_blank">
                 <a className={` ${utilStyles.colorInherit} ${utilStyles.navButton} `}>Contact Us</a>
-              </Link>
+              </a>
             </h2>
           </>
         ) : (
@@ -112,9 +118,9 @@ export default function Layout({ children, home }) {
 
 
             <h2 className={utilStyles.headingLg}>
-              <Link href="https://calendly.com/vettednutrition/go-time-onboarding">
+              <a target="_blank" href="https://calendly.com/vettednutrition/go-time-onboarding">
                 <a className={utilStyles.colorInherit}>Contact Us</a>
-              </Link>
+              </a>
             </h2>
           </>
         )}

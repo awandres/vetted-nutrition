@@ -33,6 +33,10 @@ a.btn-cta:hover { background-color:#24642d!important; text-decoration: none; col
 a.btn-alt { background-color:#B6F3E8!important; color:#000;}
 a.btn-alt:hover { background-color:#a3dbd1!important; text-decoration: none;}
 
+.external-link { text-decoration: none;}
+
+.external-link a { color:white;}
+
 header h2 a { text-decoration:none; }
 
 .testimonialColumn {border:1px solid black}
@@ -44,6 +48,7 @@ header h2 a { text-decoration:none; }
 section.footer {background-color: black!important;}
 
 .servicesHeaderBlock { background: url('/images/green-veg-3.jpg'); background-position: center; color:white;}
+
 
 .aboutVegBlock {
   background-image: url('/images/green-veg-1.jpg');

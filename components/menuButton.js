@@ -24,7 +24,7 @@ class MenuButton extends React.Component {
     const styles = {
       container: {
         height: '80px',
-        width: '32px',
+        width: '54px',
         display:'flex',
         flexDirection: 'column',
         justifyContent: 'center',

@@ -63,7 +63,7 @@ class MobileMenu extends React.Component {
         menuContainer: {
           opacity: 0,
           animation: '1s appear forwards',
-          paddingTop: '80px',
+          paddingTop: '103px',
           animationDelay: this.props.delay
         },
         line: {

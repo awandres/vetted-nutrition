@@ -90,8 +90,8 @@ Eat Better, Feel Better, and Live Better.</h3>
         <section className={homeStyles.mail}>
           <div className={homeStyles.overlay}>
             <div class="py-5">
-              <h3>Keep up with your fitness goals</h3>
-              <p>Enter your email to join our mailing list and receive the latest training videos, excercises, promotions, and more. </p>
+              <h3>Keep up with your nutrition goals</h3>
+              <p>Enter your email to join our mailing list and receive the latest nutrition videos, excercises, promotions, and more. </p>
 
               <HubspotForm />
 
