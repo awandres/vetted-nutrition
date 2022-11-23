@@ -27,7 +27,7 @@ export default function Home () {
                 <h3>Our Mission is to help the world
 <br />
 Eat Better, Feel Better, and Live Better.</h3>
-                <a className='btn btn-alt btn-lg' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
+                <a className='btn btn-alt btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
 
               </div>
               <div className='col-md-6 heroBannerVeg d-none d-md-flex' />
@@ -49,7 +49,7 @@ Eat Better, Feel Better, and Live Better.</h3>
               <div className='container d-flex justify-content-center align-items-center h-100 flex-column w-75 py-5'>
                 <h2 className='text-light mt-2 mb-3'>Styku Body Scan</h2>
                 <p>We start with objective data. The Styku scanner uses a platform that rotates and an infrared scanner to make a 3d model of you. This gives you the most accurate body composition, within 1% error of a DEXA scan. Lets know where we started, so we know where we are going. This option is currently available in Frederick Maryland.</p>
-                <a className='btn btn-cta btn-lg' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
+                <a className='btn btn-cta btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
 
               </div>
             </div>
@@ -57,14 +57,14 @@ Eat Better, Feel Better, and Live Better.</h3>
 
           <div className='row'>
           <div className='col-md-6 px-0 order-md-2'>
-            <img className='mx-auto img-fluid w-100' src='/images/Butt Math (3).png' alt='Woman doing barbell squats in front of a mirror with a personal trainer' />
+            <img className='mx-auto img-fluid w-100' src='/images/omni-image.png' alt='Woman doing barbell squats in front of a mirror with a personal trainer' />
           </div>
 
             <div className='col-md-6 px-0'>
               <div className='container d-flex justify-content-center align-items-center h-100 flex-column w-75 py-5'>
                 <h2 className='text-light mt-2 mb-3'>Core Concepts</h2>
                 <p>Time for your customized meal plan! Your Vetted Nutrition Practitioner will sit down with you to create a customized meal plan with your goals and gut sensitivity in mind. We use proprietary systems like "Butt Math" to teach you simple ways to make good decisions with your food. It is ESSENTIAL to complete this step to run any of our programs.</p>
-                <a className='btn btn-cta btn-lg' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
+                <a className='btn btn-cta btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
 
               </div>
             </div>
@@ -79,7 +79,7 @@ Eat Better, Feel Better, and Live Better.</h3>
               <div className='container d-flex justify-content-center align-items-center h-100 flex-column w-75 py-5'>
                 <h2 className='text-light mt-2 mb-3'>Go-Time Groups</h2>
                 <p>Go-time groups are small groups that utilize your Core Concepts to achieve your weight loss and body composition goals. One of our passionate practitioners will be guiding you through your nutritional journey on a daily basis. These programs last from 2 to 3 months long. Are you Ready to Change your Life?</p>
-                <a className='btn btn-cta btn-lg' href='https://calendly.com/vettednutrition/go-time-onboarding'>It's Go Time!</a>
+                <a className='btn btn-cta btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>It's Go Time!</a>
 
               </div>
             </div>
