@@ -27,8 +27,8 @@ img {
 p { font-size:22px; color:#fff;}
 .bg-white p { color:#000; }
 
-a.btn-cta, input.hs-button { background-color:#30833C!important; color:#fff; }
-a.btn-cta:hover { background-color:#24642d!important; text-decoration: none; color:#fff;}
+a.btn-cta, input.hs-button { background-color:#50c878!important; color:#000; }
+a.btn-cta:hover { background-color:#43a965!important; text-decoration: none; color:#000;}
 
 a.btn-alt { background-color:#B6F3E8!important; color:#000;}
 a.btn-alt:hover { background-color:#a3dbd1!important; text-decoration: none;}
@@ -63,7 +63,7 @@ section.footer {background-color: black!important;}
 .heroBannerVeg {
   /* background-image: url('/images/fruits-veggies.jpg'); */
   height:600px;
-  width:100%;
+  /* width:100%; */
   background-size: cover;
   background-repeat: no-repeat;
 }

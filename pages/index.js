@@ -27,7 +27,7 @@ export default function Home () {
                 <h3>Our Mission is to help the world
 <br />
 Eat Better, Feel Better, and Live Better.</h3>
-                <a className='btn btn-alt btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
+                <a className='btn btn-cta btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>I'm Ready</a>
 
               </div>
               <div className='col-md-6 heroBannerVeg d-none d-md-flex' />
@@ -49,7 +49,7 @@ Eat Better, Feel Better, and Live Better.</h3>
               <div className='container d-flex justify-content-center align-items-center h-100 flex-column w-75 py-5'>
                 <h2 className='text-light mt-2 mb-3'>Styku Body Scan</h2>
                 <p>We start with objective data. The Styku scanner uses a platform that rotates and an infrared scanner to make a 3d model of you. This gives you the most accurate body composition, within 1% error of a DEXA scan. Lets know where we started, so we know where we are going. This option is currently available in Frederick Maryland.</p>
-                <a className='btn btn-cta btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>Learn More</a>
+                <a className='btn btn-cta btn-lg' target='_blank' href='https://calendly.com/vettednutrition/go-time-onboarding'>Scan Now</a>
 
               </div>
             </div>
